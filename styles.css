@@ -1,0 +1,106 @@
+*{margin: 0; padding: 0}
+
+@font-face {
+  font-family: 'Abel';
+  src: url('./fonts/Abel-Regular.ttf');
+}
+
+.body {
+  max-width: 100%;
+  height: 100%;
+
+  font-family: 'Abel';
+}
+
+.header {
+  height: 90px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.header__logo {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header__logo-img {
+  width: 55px;
+  height: 55px;
+}
+
+.header__nav {
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header__nav-img {
+  width: 154px;
+  height: 31px;
+
+  border-bottom: 2px solid transparent;
+}
+
+.header__nav-img:hover {
+  border-bottom: 2px solid #787878;
+}
+
+.section {
+  height: 450px;
+  background-color: #D8D8D8;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.section__wrap {
+  width: 70%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 10%;
+}
+
+.section__about {
+  display: flex;
+  flex-direction: column;
+}
+
+.section__about-title {
+  font-size: 60px;
+}
+
+.section__about-desc {
+  font-size: 36px;
+}
+
+.section__button {
+  width: 100%;
+  display: flex;
+  padding: 0 25px 0 0;
+}
+
+.section__button-all {
+  border: none;
+  width: 283px;
+  height: 60px;
+  font-size: 26px;
+
+  margin: 0 25px 0 0;
+}
+
+.section__button-white {
+  background-color: #FFFFFF;
+  color: #000000;
+
+}
+
+.section__button-black {
+  background-color: #000000;
+  color: #FFFFFF;
+
+}
