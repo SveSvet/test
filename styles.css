@@ -86,15 +86,19 @@
 }
 
 .button-all {
-  border: none;
-  width: 283px;
-  height: 60px;
-  font-size: 26px;
+   border: none;
+   width: 283px;
+   height: 60px;
+   font-size: 26px;
 
-  margin: 0 25px 0 0;
-  outline: none;
+   margin: 0 25px 0 0;
+   outline: none;
 
-  cursor: pointer;
+   cursor: pointer;
+ }
+
+.button-all:hover {
+  box-shadow: 0 8px 18px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.01);
 }
 
 .section__button-white {
